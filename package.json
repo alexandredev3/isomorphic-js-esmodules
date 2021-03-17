@@ -1,0 +1,16 @@
+{
+  "name": "isomorphic-js-esmodules-yt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "console": "node src/ui/index.mjs",
+    "web": "http-server ./"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "chalk-table": "^1.0.2",
+    "http-server": "^0.12.3"
+  }
+}
